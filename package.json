@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && git add . && git commit -m 'push to github page' && git push"
   },
   "dependencies": {
     "element-plus": "^2.5.6",
